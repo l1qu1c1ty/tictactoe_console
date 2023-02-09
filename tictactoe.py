@@ -99,7 +99,6 @@ while True:
 
                     if tictactoe_board[cpu_row_index[0]][cpu_col_index[0]] == "#":
                         print("-"*50)
-                        system("cls")
                         print(f"Computer - Move: {cpu_move}")
                         print(f"Computer - Row:  {int(cpu_row_index[0])}")
                         print(f"Computer - Col:  {int(cpu_col_index[0])}")
